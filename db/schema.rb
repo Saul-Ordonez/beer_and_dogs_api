@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_03_190133) do
+ActiveRecord::Schema.define(version: 2020_02_03_234715) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -26,6 +26,8 @@ ActiveRecord::Schema.define(version: 2020_02_03_190133) do
     t.string "restrictions"
     t.boolean "kid_friendly"
     t.integer "rating"
+    t.float "lat"
+    t.float "long"
   end
 
 end

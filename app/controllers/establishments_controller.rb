@@ -37,6 +37,6 @@ class EstablishmentsController < ApplicationController
   end
 
   def establishment_params
-    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating)
+    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :latitude, :longitude)
   end
 end
