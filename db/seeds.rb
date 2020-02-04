@@ -60,6 +60,41 @@ class Seed
         rogue_pearl = Establishment.create!(name: "Rogue Pearl Public House", address: "1339 NW Flanders St", neighborhood: "Pearl District", website: "http://www.rogue.com/", image: "" , establishment_type: "Taproom / Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
         rogue_hall = Establishment.create!(name: "Rogue Hall", address: "1717 SW Park Ave", neighborhood: "Downtown", website: "http://www.rogue.com/", image: "" , establishment_type: "Taproom / Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
 
+
+
+        assembly = Establishment.create!(name: "Assembly Brewing", address: "6112 SE Foster Rd", neighborhood: "Foster", website: "https://www.assemblybrewingco.com/", image: "" , establishment_type: "Brewery / Restaurant", food: "Pizza", restrictions: "Patio Only", kid_friendly: false, rating: nil, lat: nil, long: nil  )
+        west_coast_grocery = Establishment.create!(name: "West Coast Grocery Company", address: "1403 SE Stark St", neighborhood: "Buckman", website: "https://www.westcoastgrocerycompany.com/", image: "" , establishment_type: "Brewery / Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        oakshire = Establishment.create!(name: "Oakshire Beer Hall", address: "5013 NE 42nd Ave", neighborhood: "Cully", website: "https://www.oakbrew.com/", image: "" , establishment_type: "Taproom", food: "Food Carts", restrictions: "None", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        occidental = Establishment.create!(name: "Occidental Brewing Co.", address: "6635 N Baltimore Ave, Suite 102", neighborhood: "St. Johns", website: "https://www.occidentalbrewing.com/", image: "" , establishment_type: "Brewery / Taproom", food: "None", restrictions: "None", kid_friendly: false, rating: nil, lat: nil, long: nil  )
+        stormbreaker_north = Establishment.create!(name: "Stormbreaker Brewing St. Johns", address: "8409 N Lombard St", neighborhood: "St. Johns", website: "http://www.stormbreakerbrewing.com/", image: "" , establishment_type: "Brewery / Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+
+
+
+
+        # taprooms--------------------------------------------
+
+
+
+
+
+
+        proper_pint = Establishment.create!(name: "Proper Pint Taproom", address: "5965 SE 52nd Ave", neighborhood: "Woodstock", website: "https://www.properpinttaproom.com/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "None", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        birdie_time = Establishment.create!(name: "Birdie Time Pub", address: "925 SE Main St", neighborhood: "Buckman", website: "https://www.birdietimepub.com/", image: "" , establishment_type: "Pub / Sports", food: "Pub Food", restrictions: "None", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        loyal_legion = Establishment.create!(name: "Loyal Legion Beer Hall", address: "710 SE 6th St", neighborhood: "Buckman", website: "https://www.loyallegionpdx.com/", image: "" , establishment_type: "Taproom / Pub", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        eastburn = Establishment.create!(name: "Eastburn Public House", address: "1800 E Burnside St", neighborhood: "Buckman", website: "https://www.theeastburn.com/", image: "" , establishment_type: "Bar / Pub", food: "Pub Food", restrictions: "Patio Only", kid_friendly: false, rating: nil, lat: nil, long: nil  )
+        ankeny = Establishment.create!(name: "Tap and Table on Ankeny", address: "2724 SE Ankeny St", neighborhood: "Buckman", website: "https://www.ankenypdx.com/", image: "" , establishment_type: "Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        mayfly = Establishment.create!(name: "Mayfly Bottle", address: "2724 SE Ankeny St", neighborhood: "Buckman", website: "https://www.ankenypdx.com/", image: "" , establishment_type: "Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil  )
+        civic = Establishment.create!(name: "The Civic Taproom and Bottle Shop", address: "621 SW 19th Ave", neighborhood: "Downtown", website: "https://www.thecivictaproom.com/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "None", restrictions: "Patio Only", kid_friendly: false, rating: nil, lat: nil, long: nil  )
+        growler_usa = Establishment.create!(name: "Growler USA", address: "615 SW Harrison St
+        Suite B", neighborhood: "Downtown", website: "https://growlerusa.com/craft-beer-pubs/or-portland/", image: "" , establishment_type: "Restaurant", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: nil, long: nil )
+        hawthorne_taps = Establishment.create!(name: "Hawthorne Taps", address: "3343 SE Hawthorne Blvd", neighborhood: "Hawthorne", website: "https://growlerspdx.com/hawthorne", image: "" , establishment_type: "Beer Cart", food: "Food Carts", restrictions: "None", kid_friendly: true, rating: nil, lat: nil, long: nil )
+
+
+
+
+
+
+
     end
   end
 
