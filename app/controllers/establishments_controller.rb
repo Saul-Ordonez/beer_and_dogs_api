@@ -26,28 +26,28 @@ class EstablishmentsController < ApplicationController
     json_response(@establishment)
   end
 
-  def update
-    @establishment = Establishment.find(params[:id])
-    if @establishment.update!(establishment_params)
-      render status: 200, json: {
-        message: "#{@establishment.name} has been updated successfully."
-      }
-    end
-  end
-
-  def destroy
-    @establishment = Establishment.find(params[:id])
-    if @establishment.destroy
-      render status: 200, json: {
-        message: "#{@establishment.name} has been deleted successfully."
-      }
-    end
-  end
+  # def update
+  #   @establishment = Establishment.find(params[:id])
+  #   if @establishment.update!(establishment_params)
+  #     render status: 200, json: {
+  #       message: "#{@establishment.name} has been updated successfully."
+  #     }
+  #   end
+  # end
+  #
+  # def destroy
+  #   @establishment = Establishment.find(params[:id])
+  #   if @establishment.destroy
+  #     render status: 200, json: {
+  #       message: "#{@establishment.name} has been deleted successfully."
+  #     }
+  #   end
+  # end
 
   private
 
   def establishment_params
-    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :latitude, :longitude)
+    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :lat, :long)
   end
 
 end
