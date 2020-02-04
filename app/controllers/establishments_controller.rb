@@ -1,4 +1,3 @@
-
 class EstablishmentsController < ApplicationController
 
   def index
