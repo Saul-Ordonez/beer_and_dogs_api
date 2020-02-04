@@ -97,6 +97,5 @@ class Seed
 
     end
   end
-
 end
 Seed.begin
