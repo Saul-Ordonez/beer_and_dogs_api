@@ -2,8 +2,19 @@
 class EstablishmentsController < ApplicationController
 
   def index
-    @establishments = Establishment.all
-    json_response(@establishments)
+    if params[:query]
+      @establishments = Establishment.search(params[:query])
+      if @establishments.blank?
+        render status: 200, json: {
+          message: "No results found for #{params[:query]}."
+        }
+      else
+        json_response(@establishments)
+      end
+    else
+      @establishments = Establishment.all
+      json_response(@establishments)
+    end
   end
 
   def show
@@ -35,5 +46,5 @@ class EstablishmentsController < ApplicationController
   def establishment_params
     params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :latitude, :longitude)
   end
-  
+
 end
