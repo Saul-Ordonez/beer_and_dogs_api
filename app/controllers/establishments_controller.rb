@@ -1,7 +1,6 @@
 
 class EstablishmentsController < ApplicationController
 
-
   def index
     @establishments = Establishment.all
     json_response(@establishments)
@@ -32,11 +31,9 @@ class EstablishmentsController < ApplicationController
   end
 
   private
-  def json_response(object, status = :ok)
-    render json: object, status: status
-  end
 
   def establishment_params
     params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :latitude, :longitude)
   end
+  
 end
