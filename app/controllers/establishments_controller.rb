@@ -31,14 +31,18 @@ class EstablishmentsController < ApplicationController
     @establishment = Establishment.find(params[:id])
     if @establishment.update!(establishment_params)
       render status: 200, json: {
-        message: "This establishment has been updated successfully."
+        message: "#{@establishment.name} has been updated successfully."
       }
     end
   end
 
   def destroy
     @establishment = Establishment.find(params[:id])
-    @establishment.destroy
+    if @establishment.destroy
+      render status: 200, json: {
+        message: "#{@establishment.name} has been deleted successfully."
+      }
+    end
   end
 
   private
