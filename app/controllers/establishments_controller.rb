@@ -1,5 +1,5 @@
 class EstablishmentsController < ApplicationController
-
+# require 'will_paginate/array'
   def index
     if params[:query]
       @establishments = Establishment.search(params[:query])

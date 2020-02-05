@@ -101,7 +101,7 @@ class Seed
         look_long_brewing= Establishment.create!(name: "Look Long Brewing Company", address: "6550 N Interstate Ave", neighborhood: "Arbor Lodge", website: "https://www.looklongbrewing.com/", image: "" , establishment_type: "Brewery / Taproom / Bottle Shop", food: "Food Carts", restrictions: "Patio Only", kid_friendly: false, rating: nil, lat: 45.570747, long: -122.681843 )
         chill_fill= Establishment.create!(name: "Chill n Fill", address: "5215 N Lombard Ave", neighborhood: "University Park", website: "https://www.chillnfill.com/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "None", restrictions: "Patio Only", kid_friendly: false, rating: nil, lat: 45.582374, long: -122.721773)
         draft_and_bottle= Establishment.create!(name: "Lent's Draft and Bottle", address: "8530 SE Foster Rd", neighborhood: "Lents", website: "https://www.lents-draft-and-bottle.business.site/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "None", restrictions: "None", kid_friendly: false, rating: nil, lat: 45.481618, long: -122.575181)
-        draft_and_bottle= Establishment.create!(name: "Lent's Draft and Bottle", address: "8530 SE Foster Rd", neighborhood: "Lents", website: "https://www.lents-draft-and-bottle.business.site/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "None", restrictions: "None", kid_friendly: false, rating: nil, lat: 45.481618, long: -122.575181)
+
 
 
 
