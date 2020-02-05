@@ -89,6 +89,8 @@ class Seed
         terminus = Establishment.create!(name: "Terminus Bottle Shop and Taproom", address: "9133 SE Woodstock Blvd", neighborhood: "Lents", website: "https://terminusbottleandtap.com/", image: "" , establishment_type: "Taproom", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: 45.479861, long: -122.569456 )
         growlers_taproom = Establishment.create!(name: "Growler's Taproom", address: "803 SE 82nd Ave", neighborhood: "Montavilla", website: "https://growlerspdx.com/", image: "" , establishment_type: "Taproom", food: "Food Carts", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: 45.516844, long: -122.579236 )
         belmont_station = Establishment.create!(name: "Belmont Station", address: "4500 SE Stark St", neighborhood: "Sunnyside", website: "https://belmont-station.com/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "Food Carts", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: 45.519292, long: -122.615981 )
+        nwipa_taproom = Establishment.create!(name: "N.W.I.P.A", address: "6350 SE Foster Rd", neighborhood: "Foster", website: "https://nwipa.beer.com/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "Food Carts", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: 45.489735, long: -122.597213 )
+        portland_bottle_shop = Establishment.create!(name: "Portland Bottle Shop", address: "7960 SE 13th Ave", neighborhood: "Sellwood", website: "https://www.pdxbottleshop/", image: "" , establishment_type: "Taproom / Bottle Shop", food: "Pub Food", restrictions: "Patio Only", kid_friendly: true, rating: nil, lat: 45.466293, long: -122.652766 )
 
 
 
