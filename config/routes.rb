@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  resources :establishments
+  resources :establishments do
+    resources :reviews
   end
+end
