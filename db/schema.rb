@@ -28,4 +28,12 @@ ActiveRecord::Schema.define(version: 2020_02_05_195256) do
     t.float "long"
   end
 
+  create_table "reviews", force: :cascade do |t|
+    t.string "author"
+    t.string "content_body"
+    t.integer "rating"
+    t.integer "establishment_id"
+  end
+
+  add_foreign_key "reviews", "establishments"
 end
