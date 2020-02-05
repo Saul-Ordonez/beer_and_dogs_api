@@ -16,6 +16,7 @@ class EstablishmentsController < ApplicationController
     end
   end
 
+
   def show
     @establishment = Establishment.find(params[:id])
     json_response(@establishment)
@@ -47,7 +48,7 @@ class EstablishmentsController < ApplicationController
   private
 
   def establishment_params
-    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :lat, :long)
+    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly.to_i, :rating, :lat, :long)
   end
 
 end
