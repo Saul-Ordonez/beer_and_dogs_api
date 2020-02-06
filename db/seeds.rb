@@ -933,8 +933,7 @@ Establishment.destroy_all
             name: "Look Long Brewing Company",
             address: "6550 N Interstate Ave",
             neighborhood: "Arbor Lodge",
-            website: "https://www.look
-            longbrewing.com/",
+            website: "https://www.looklongbrewing.com/",
             establishment_type: "Brewery / Taproom / Bottle Shop",
             food: "Food Carts",
             restrictions: "Patio Only",
@@ -967,16 +966,52 @@ Establishment.destroy_all
             long: -122.575181
           ))
           beerarray.push(Establishment.create!(
-            name: "Lent's Draft and Bottle",
-            address: "8530 SE Foster Rd",
-            neighborhood: "Lents",
-            website: "https://www.lents-draft-and-bottle.business.site/",
+            name: "Imperial Bottle Shop and Taproom",
+            address: "3090 SE Division St",
+            neighborhood: "Richmond",
+            website: "https://www.imperialbottleshop.com/",
             establishment_type: "Taproom / Bottle Shop",
             food: "None",
             restrictions: "None",
             kid_friendly: false,
-            lat: 45.481618,
-            long: -122.575181
+            lat: 45.504911,
+            long: -122.633719
+          ))
+          beerarray.push(Establishment.create!(
+            name: "Imperial Bottle Shop and Taproom",
+            address: "2006 NE Alberta St",
+            neighborhood: "Alberta",
+            website: "https://www.imperialbottleshop.com/",
+            establishment_type: "Taproom / Bottle Shop",
+            food: "None",
+            restrictions: "None",
+            kid_friendly: false,
+            lat: 45.558932,
+            long: -122.644507
+          ))
+          beerarray.push(Establishment.create!(
+            name: "Ruse Brewing",
+            address: "4784 SE 17th Ave",
+            neighborhood: "West Moreland",
+            website: "https://www.rusebrewing.com/",
+            establishment_type: "Brewery / Taproom",
+            food: "None",
+            restrictions: "None",
+            kid_friendly: false,
+            lat: 45.488615,
+            long: -122.648041
+          ))
+          beerarray.push(Establishment.create!(
+            name: "Beer O'Clock",
+            address: "1205 SW Washington St",
+            neighborhood: "Downtown",
+            website: "https://www.beeroclockpdx.com/",
+            establishment_type: "Bottleshop / Taproom",
+            food: "None",
+            restrictions: "None",
+            kid_friendly: false,
+            lat: 45.522152,
+            long: -122.683944
           ))
 
           beerarray.each do |establishment|
