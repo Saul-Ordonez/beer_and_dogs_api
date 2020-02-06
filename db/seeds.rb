@@ -221,7 +221,7 @@ Establishment.destroy_all
             img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
-            name: "Oaks Bottom Public House.",
+            name: "Oaks Bottom Public House",
             address: "1621 SE Bybee Blvd",
             neighborhood: "Sellwood",
             website: "http://www.oaksbottom.com/",
