@@ -20,7 +20,11 @@ Establishment.destroy_all
         restrictions: "Patio Only",
         kid_friendly: true,
         lat: 45.476263,
-        long: -122.648808
+        long: -122.648808,
+        img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+        img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+        img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+        img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
         ))
 
         beerarray.push(Establishment.create!(
@@ -33,7 +37,11 @@ Establishment.destroy_all
           restrictions: "Patio Only",
           kid_friendly: true,
           lat: 45.463131,
-          long: -122.652830
+          long: -122.652830,
+          img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+          img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+          img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+          img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
 
           beerarray.push(Establishment.create!(
@@ -46,7 +54,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.506818,
-            long: -122.654877
+            long: -122.654877,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Base Camp Brewing",
@@ -58,7 +70,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.519921,
-            long: -122.655955
+            long: -122.655955,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Culmination Brewing",
@@ -70,7 +86,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.528948,
-            long: -122.643652
+            long: -122.643652,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Double Mountain Brewery Taproom",
@@ -82,7 +102,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.479081,
-            long: -122.617700
+            long: -122.617700,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Fire on the Mountain",
@@ -94,7 +118,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.522717,
-            long: -122.648270
+            long: -122.648270,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Gigantic Brewing Company",
@@ -106,7 +134,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.485060,
-            long: -122.639423
+            long: -122.639423,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Grixsen Brewing",
@@ -118,7 +150,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.505060,
-            long: -122.655454
+            long: -122.655454,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Ground Breaker Gastropub",
@@ -130,7 +166,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.508139,
-            long: -122.658475
+            long: -122.658475,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Hair of the Dog Brewing Company",
@@ -142,7 +182,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.518177,
-            long: -122.664657
+            long: -122.664657,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Leikam Brewing",
@@ -154,7 +198,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.522708,
-            long: -122.603925
+            long: -122.603925,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Little Beast Brewing",
@@ -166,7 +214,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.504590,
-            long: -122.629215
+            long: -122.629215,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Oaks Bottom Public House.",
@@ -178,7 +230,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.473952,
-            long: -122.649407
+            long: -122.649407,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Lucky Labrador Brewpub",
@@ -190,7 +246,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.512500,
-            long: -122.656349
+            long: -122.656349,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Lucky Labrador Brewpub",
@@ -202,7 +262,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.533930,
-            long: -122.691750
+            long: -122.691750,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Lucky Labrador Brewpub",
@@ -214,7 +278,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.563059,
-            long: -122.684847
+            long: -122.684847,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Bagdad Theater",
@@ -226,7 +294,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.511927,
-            long: -122.625533
+            long: -122.625533,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Barley Mill Pub",
@@ -238,7 +310,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.512438,
-            long: -122.648798
+            long: -122.648798,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Chapel Pub",
@@ -250,7 +326,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.562530,
-            long: -122.670816
+            long: -122.670816,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Kennedy School",
@@ -262,7 +342,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.564604,
-            long: -122.629995
+            long: -122.629995,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins White Eagle cafe",
@@ -274,7 +358,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.540886,
-            long: -122.675442
+            long: -122.675442,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins 23rd Ave Bottle Shop",
@@ -286,7 +374,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.535474,
-            long: -122.698675
+            long: -122.698675,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Blue Moon Tavern and Grill",
@@ -298,7 +390,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.526262,
-            long: -122.694256
+            long: -122.694256,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Zeus Cafe",
@@ -310,7 +406,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.522797,
-            long: -122.683324
+            long: -122.683324,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Ringlers Annex",
@@ -322,7 +422,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.522880,
-            long: -122.683711
+            long: -122.683711,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Tavern and Pool Hall",
@@ -334,7 +438,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.535133,
-            long: -122.698659
+            long: -122.698659,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins The Rams Head",
@@ -346,7 +454,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.526857,
-            long: -122.698350
+            long: -122.698350,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "McMenamins Market Street Pub",
@@ -358,7 +470,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.514227,
-            long: -122.685032
+            long: -122.685032,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Migration Brewing",
@@ -370,7 +486,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.526297,
-            long: -122.636463
+            long: -122.636463,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Natian Brewery Taproom",
@@ -382,7 +502,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.522838,
-            long: -122.652295
+            long: -122.652295,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Scout Beer",
@@ -394,7 +518,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: true,
             lat: 45.505506,
-            long: -122.610297
+            long: -122.610297,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "The Thirsty Monk",
@@ -406,7 +534,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.511821,
-            long: -122.632622
+            long: -122.632622,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Threshold Brewing and Blending",
@@ -418,7 +550,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.519320,
-            long: -122.583084
+            long: -122.583084,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Vagabond Brewing",
@@ -430,7 +566,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.503461,
-            long: -122.658285
+            long: -122.658285,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Baerlic Brewing Beer Hall",
@@ -442,7 +582,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: true,
             lat: 45.533950,
-            long: -122.601317
+            long: -122.601317,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Breakside Brewery",
@@ -454,7 +598,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.571633,
-            long: -122.656867
+            long: -122.656867,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Breakside Brewery - NW Slabtown",
@@ -466,7 +614,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.534038,
-            long: -122.696522
+            long: -122.696522,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Broadway Grill and Brewery",
@@ -478,7 +630,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.535016,
-            long: -122.648182
+            long: -122.648182,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Ecliptic Brewing",
@@ -490,7 +646,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.547412,
-            long: -122.675053
+            long: -122.675053,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Ex Novo Brewing",
@@ -502,7 +662,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.540060,
-            long: -122.668427
+            long: -122.668427,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Hopworks Bike Bar",
@@ -514,7 +678,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.551454,
-            long: -122.666810
+            long: -122.666810,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Second Profession Brewing",
@@ -526,7 +694,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.542896,
-            long: -122.602643
+            long: -122.602643,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Old Town Brewing Company",
@@ -538,7 +710,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.560771,
-            long: -122.661759
+            long: -122.661759,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Stormbreaker Brewing",
@@ -550,7 +726,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.549924,
-            long: -122.677645
+            long: -122.677645,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Ascendant Beer Company",
@@ -562,7 +742,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.526292,
-            long: -122.675223
+            long: -122.675223,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Back Pedal Brewing",
@@ -574,7 +758,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.526043,
-            long: -122.685685
+            long: -122.685685,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Sasquatch Brewery and Taproom",
@@ -586,7 +774,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.540637,
-            long: -122.712826
+            long: -122.712826,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Rogue Eastside Pub and Pilot Brewery",
@@ -598,7 +790,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.516058,
-            long: -122.656536
+            long: -122.656536,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Rogue Pearl Public House",
@@ -610,7 +806,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.525945,
-            long: -122.685113
+            long: -122.685113,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Rogue Hall",
@@ -622,7 +822,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.512837,
-            long: -122.685492
+            long: -122.685492,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Assembly Brewing",
@@ -634,7 +838,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.490962,
-            long: -122.600408
+            long: -122.600408,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "West Coast Grocery Company",
@@ -646,7 +854,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.519526,
-            long: -122.651450
+            long: -122.651450,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Oakshire Beer Hall",
@@ -658,7 +870,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: true,
             lat: 45.559353,
-            long: -122.620553
+            long: -122.620553,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Occidental Brewing Co.",
@@ -670,7 +886,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.588956,
-            long: -122.761934
+            long: -122.761934,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Stormbreaker Brewing St. Johns",
@@ -682,7 +902,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.589855,
-            long: -122.753048
+            long: -122.753048,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Prost!",
@@ -694,7 +918,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.554626,
-            long: -122.675748
+            long: -122.675748,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Laurelwood",
@@ -706,7 +934,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.540183,
-            long: -122.610586
+            long: -122.610586,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Level Beer",
@@ -718,7 +950,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: true,
             lat: 45.561160,
-            long: -122.510969
+            long: -122.510969,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
 
 
@@ -735,7 +971,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.479501,
-            long: -122.608871
+            long: -122.608871,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Birdie Time Pub",
@@ -747,7 +987,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: true,
             lat: 45.514012,
-            long: -122.655976
+            long: -122.655976,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Loyal Legion Beer Hall",
@@ -759,7 +1003,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.517872,
-            long: -122.659424
+            long: -122.659424,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Eastburn Public House",
@@ -771,7 +1019,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.522821,
-            long: -122.647396
+            long: -122.647396,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Tap and Table on Ankeny",
@@ -783,7 +1035,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.522115,
-            long: -122.637733
+            long: -122.637733,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Mayfly Bottle",
@@ -795,7 +1051,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.583709,
-            long: -122.684606
+            long: -122.684606,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "The Civic Taproom and Bottle Shop",
@@ -807,7 +1067,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.522691,
-            long: -122.690281
+            long: -122.690281,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Growler USA",
@@ -819,7 +1083,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.511295,
-            long: -122.683008
+            long: -122.683008,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Hawthorne Hop House",
@@ -831,7 +1099,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.512588,
-            long: -122.619948
+            long: -122.619948,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Terminus Bottle Shop and Taproom",
@@ -843,7 +1115,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.479861,
-            long: -122.569456
+            long: -122.569456,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Growler's Taproom",
@@ -855,7 +1131,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.516844,
-            long: -122.579236
+            long: -122.579236,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Belmont Station",
@@ -867,7 +1147,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.519292,
-            long: -122.615981
+            long: -122.615981,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "N.W.I.P.A",
@@ -879,7 +1163,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.489735,
-            long: -122.597213
+            long: -122.597213,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Portland Bottle Shop",
@@ -891,7 +1179,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: true,
             lat: 45.466293,
-            long: -122.652766
+            long: -122.652766,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Beer",
@@ -903,7 +1195,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.519651,
-            long: -122.651440
+            long: -122.651440,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Beer Bunker",
@@ -915,7 +1211,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.519103,
-            long: -122.581997
+            long: -122.581997,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Hoplandia",
@@ -927,7 +1227,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.589884,
-            long: -122.755790
+            long: -122.755790,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Look Long Brewing Company",
@@ -939,7 +1243,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.570747,
-            long: -122.681843
+            long: -122.681843,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Chill n Fill",
@@ -951,7 +1259,11 @@ Establishment.destroy_all
             restrictions: "Patio Only",
             kid_friendly: false,
             lat: 45.582374,
-            long: -122.721773
+            long: -122.721773,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Lent's Draft and Bottle",
@@ -963,7 +1275,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.481618,
-            long: -122.575181
+            long: -122.575181,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Imperial Bottle Shop and Taproom",
@@ -975,7 +1291,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.504911,
-            long: -122.633719
+            long: -122.633719,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Imperial Bottle Shop and Taproom",
@@ -987,7 +1307,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.558932,
-            long: -122.644507
+            long: -122.644507,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Ruse Brewing",
@@ -999,7 +1323,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.488615,
-            long: -122.648041
+            long: -122.648041,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
           beerarray.push(Establishment.create!(
             name: "Beer O'Clock",
@@ -1011,7 +1339,11 @@ Establishment.destroy_all
             restrictions: "None",
             kid_friendly: false,
             lat: 45.522152,
-            long: -122.683944
+            long: -122.683944,
+            img: Faker::LoremFlickr.image(search_terms: ['beer', 'pint']),
+            img2: Faker::LoremFlickr.image(search_terms: ['smiling dog']),
+            img3: Faker::LoremFlickr.image(search_terms: ['pint', 'beer']),
+            img4: Faker::LoremFlickr.image(search_terms: ['happy dog'])
           ))
 
           beerarray.each do |establishment|

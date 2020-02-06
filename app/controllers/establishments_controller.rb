@@ -47,7 +47,7 @@ class EstablishmentsController < ApplicationController
   private
 
   def establishment_params
-    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :lat, :long)
+    params.permit(:name, :address, :neighborhood, :website, :image, :establishment_type, :food, :restrictions, :kid_friendly, :rating, :lat, :long, :img, :img2, :img3, :img4)
   end
 
 end
